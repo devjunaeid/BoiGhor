@@ -1,0 +1,100 @@
+.App{
+    height: 100vh;
+    padding: 0px 150px;
+    background-color: rgb(34, 153, 117);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.books{
+    margin-top: 6rem;
+    display: flex;
+    gap: 5px;
+}
+
+.book{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.book img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    background-color: rgb(201, 231, 221);
+}
+
+
+
+.update{
+    border: solid 2px rgb(58, 16, 207);
+    padding: 5px 7px;
+    border-radius: 5px;
+    max-width: 100px;
+    background-color: rgb(27, 101, 238);
+    color:white;
+    font-size: larger;
+}
+
+.delete{
+    border: solid 2px rgb(245, 63, 63);
+    border-radius: 5px;
+    padding: 5px 7px;
+    max-width: 100px;
+    background-color: rgb(211, 102, 102);
+    color: white;
+    font-size: larger;
+}
+
+.newBookBtn{
+    margin-top: 10px;
+    border: solid 2px rgb(75, 65, 65);
+    border-radius: 5px;
+    padding: 5px 7px;
+    max-width: fit-content;
+    background-color: rgb(22, 19, 39);
+    color: white;
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.form input{
+    border: none;
+    padding: 10px 15px;
+    font-size: larger;
+    border-radius: 5px;
+    min-width: 500px;
+}
+
+.form button{
+    padding: 10px;
+    font-size: large;
+    background-color: #131222;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    
+}
